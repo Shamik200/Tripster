@@ -54,7 +54,10 @@ final narrative itinerary, travel tips and a tailored packing list.
 
 ## 🔀 Agent Flow
 
-![LangGraph agent flow](./agent_flow.png)
+<p align="center">
+  <img src="./agent_flow.png" alt="LangGraph agent flow" width="600">
+</p>
+
 
 | Node               | What it does                                                            |
 |--------------------|--------------------------------------------------------------------------|
@@ -63,8 +66,6 @@ final narrative itinerary, travel tips and a tailored packing list.
 | `web_research`     | Gemini + Google Search → hotels, activities, weather in the right currency|
 | `generate_plan`    | Builds the structured `TripPlan` (itinerary, budget, tips)               |
 | `validate_plan`    | Verifies the itinerary day count matches the requested dates             |
-
-Full end-to-end architecture (frontend included): ![Project flow](./project_flow.png)
 
 ---
 
