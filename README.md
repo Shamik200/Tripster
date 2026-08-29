@@ -1,6 +1,6 @@
 # ✈️ Tripster AI — Agentic Travel Planner
 
-🔗 **Live Demo:** _coming soon_ &nbsp;•&nbsp; 📖 [Full Code Walkthrough](./GUIDE_PROJECT_FLOW.md)
+🔗 **Live Demo:** [tripster-travel-agent.vercel.app](https://tripster-travel-agent.vercel.app/) &nbsp;•&nbsp; 📖 [Full Code Walkthrough](./GUIDE_PROJECT_FLOW.md)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -151,6 +151,7 @@ Open **http://localhost:3000**, fill the form, and plan a trip 🎉
 |-------------------------|----------|----------------------------------------------------|
 | `GEMINI_API_KEY`        | ✅       | Google Gemini API key (research + planning)         |
 | `GEMINI_MODEL`          | ➖       | Defaults to `gemini-2.5-flash`                      |
+| `ALLOWED_ORIGINS`       | ➖       | Comma-separated CORS origins allowed to call the API |
 | `LANGCHAIN_TRACING_V2`  | ➖       | `true` to enable LangSmith tracing                  |
 | `LANGCHAIN_API_KEY`     | ➖       | LangSmith key when tracing is on                    |
 | `LANGCHAIN_PROJECT`     | ➖       | LangSmith project name (default `Tripster`)         |

@@ -22,6 +22,13 @@ class Settings:
     MCP_CACHE_FILE: str = os.path.join(DATA_DIR, "mcp_cache.json")
     MCP_CACHE_TTL_SECONDS: int = 3600
 
-    ALLOWED_ORIGINS: list = ["*"]
+    ALLOWED_ORIGINS: list = [
+        origin.strip()
+        for origin in os.getenv(
+            "ALLOWED_ORIGINS",
+            "http://localhost:3000,https://tripster-travel-agent.vercel.app",
+        ).split(",")
+        if origin.strip()
+    ]
 
 settings = Settings()
