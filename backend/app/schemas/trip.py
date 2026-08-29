@@ -90,8 +90,16 @@ class FinalizeRequest(BaseModel):
     # keys are day indices (0-based), values are lists of activity indices
     selected_activity_indices: Dict[str, List[int]] = Field(default_factory=dict)
 
+class FinalizeLLMOutput(BaseModel):
+    """LLM-only fields. Numbers are computed in Python — do not ask the model for them."""
+    narrative_summary: str = Field(..., description="Two short paragraphs, under 250 words, no markdown")
+    day_summaries: List[str] = Field(..., description="One concise sentence per trip day")
+    suggestions: List[str] = Field(..., description="Exactly 5 destination-specific travel tips")
+    packing_list: List[str] = Field(..., description="Exactly 10 packing items")
+
+
 class FinalizedPlan(BaseModel):
-    """Returned by the LLM after finalizing the user's selections."""
+    """Returned after finalizing the user's selections."""
     narrative_summary: str = Field(..., description="A polished 2-3 paragraph narrative of the entire trip")
     day_by_day: str = Field(..., description="Day-by-day prose description of selected activities")
     suggestions: List[str] = Field(default_factory=list, description="Smart travel tips and suggestions")
