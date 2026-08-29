@@ -1,0 +1,230 @@
+{
+  "{\"budget\": 2000.0, \"destination\": \"Tokyo\", \"duration\": 5, \"interests\": \"sightseeing, food\", \"origin\": \"New York\"}": {
+    "created_at": 1787654909.5598989,
+    "data": {
+      "flights": [
+        {
+          "airline": "SkyLine Express",
+          "origin": "New York",
+          "destination": "Tokyo",
+          "price": 450,
+          "duration": "6h 30m",
+          "is_direct": true
+        },
+        {
+          "airline": "TransWorld Airways",
+          "origin": "New York",
+          "destination": "Tokyo",
+          "price": 380,
+          "duration": "8h 15m",
+          "is_direct": false
+        }
+      ],
+      "hotels": [
+        {
+          "name": "Grand Central Hotel",
+          "location": "Central Tokyo",
+          "price_per_night": 160.0,
+          "rating": 4.6,
+          "amenities": [
+            "Wifi",
+            "Breakfast"
+          ]
+        },
+        {
+          "name": "Urban Oasis Boutique",
+          "location": "Central Tokyo",
+          "price_per_night": 120.0,
+          "rating": 4.3,
+          "amenities": [
+            "Wifi"
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "title": "Tokyo City Highlights",
+          "description": "Explore top sightseeing, food sights",
+          "time_of_day": "Morning",
+          "estimated_cost": 25.0
+        },
+        {
+          "title": "Culinary Tasting",
+          "description": "Sample local specialties",
+          "time_of_day": "Afternoon",
+          "estimated_cost": 30.0
+        },
+        {
+          "title": "Evening Scenic Walk",
+          "description": "Relax in central district",
+          "time_of_day": "Evening",
+          "estimated_cost": 40.0
+        }
+      ],
+      "weather": {
+        "destination": "Tokyo",
+        "temperature_celsius": 20,
+        "temperature_fahrenheit": 68,
+        "conditions": "clear skies",
+        "recommendation": "Light jacket recommended"
+      }
+    }
+  },
+  "{\"budget\": 2000.0, \"destination\": \"Tokyo\", \"duration\": 2, \"interests\": \"sightseeing, food\", \"origin\": \"New York\"}": {
+    "created_at": 1787669203.8540845,
+    "data": {
+      "flights": [
+        {
+          "airline": "TVF63GS",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "39de4f",
+          "latitude": 39.5608,
+          "longitude": -0.6507
+        },
+        {
+          "airline": "TVF64TW",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "39de4e",
+          "latitude": 42.3118,
+          "longitude": 2.7984
+        },
+        {
+          "airline": "CGVJE",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "c07d0b",
+          "latitude": 45.6403,
+          "longitude": -74.3552
+        },
+        {
+          "airline": "N36VK",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "a40bd8",
+          "latitude": 34.1575,
+          "longitude": -99.1862
+        },
+        {
+          "airline": "UAL2134",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "ab1644",
+          "latitude": 39.6439,
+          "longitude": -85.8751
+        },
+        {
+          "airline": "N454MF",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "a58211",
+          "latitude": 28.2719,
+          "longitude": -82.7967
+        },
+        {
+          "airline": "LPE2331",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "e8027e",
+          "latitude": -12.01,
+          "longitude": -77.1226
+        },
+        {
+          "airline": "LPE2123",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "e8027d",
+          "latitude": -12.7694,
+          "longitude": -76.0195
+        },
+        {
+          "airline": "AXB1532",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "801638",
+          "latitude": 25.5991,
+          "longitude": 87.564
+        },
+        {
+          "airline": "TVF72VT",
+          "origin": "Unknown",
+          "destination": "Unknown",
+          "price": null,
+          "duration": "Live flight data; duration unavailable",
+          "is_direct": null,
+          "flight_status": "airborne",
+          "source": "OpenSky Network",
+          "requested_origin": "New York",
+          "requested_destination": "Tokyo",
+          "icao24": "39de4b",
+          "latitude": 45.675,
+          "longitude": 9.1502
+        }
+      ]
+    }
+  }
+}
