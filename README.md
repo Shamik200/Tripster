@@ -55,7 +55,7 @@ final narrative itinerary, travel tips and a tailored packing list.
 ## 🔀 Agent Flow
 
 <p align="center">
-  <img src="./agent_flow.png" alt="LangGraph agent flow" width="600">
+  <img src="./agent_flow.png" alt="LangGraph agent flow" width="30%">
 </p>
 
 
