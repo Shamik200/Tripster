@@ -4,7 +4,7 @@ import {
   Hotel, Compass, CheckCircle, Lightbulb, Package, Star, TrendingUp
 } from 'lucide-react';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8000';
+const API_BASE_URL = (process.env.REACT_APP_API_BASE_URL || 'http://localhost:8000').replace(/\/+$/, '');
 
 const INTEREST_OPTIONS = ['sightseeing', 'food', 'nature', 'shopping', 'history', 'nightlife'];
 const STYLE_OPTIONS = ['budget', 'balanced', 'luxury'];
